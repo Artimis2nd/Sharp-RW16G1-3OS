@@ -1,6 +1,11 @@
 # Sharp-RW16G1-Gaming-Setup
 คู่มือการจัดตั้งระบบ 3 ระบบสำหรับ Sharp RW-16G1
 
+![800-800-Web-Sharp-Tablet-RW-16G1](https://github.com/user-attachments/assets/1a0e5236-574d-4eee-958a-60cb8bca6336)
+![1200-1200-Sharp-Tablet-RW-16G1-03](https://github.com/user-attachments/assets/b99f58b1-a949-4241-9720-d8d3f8852f15)
+![1200-1200-Sharp-Tablet-RW-16G1-01](https://github.com/user-attachments/assets/f01c092c-4d32-406a-b469-2c920d6938f5)
+
+
 # Sharp RW-16G1 Ultimate Gaming Station 🎮
 
 โปรเจกต์ชุบชีวิต Tablet Sharp RW-16G1 ให้กลายเป็นเครื่องเล่นเกม 3 ระบบ (Windows 10 / Android / Batocera)
