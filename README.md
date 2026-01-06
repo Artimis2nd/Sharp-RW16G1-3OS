@@ -70,6 +70,57 @@
 
 ---
 
+## 🛠️ ขั้นตอนการติดตั้งอย่างละเอียด (Detailed Installation Guide)
+
+<details>
+<summary><b>🔹 ขั้นตอนที่ 1: การแบ่งพื้นที่ SSD (Disk Management)</b></summary>
+
+1. ใน Windows 10 ให้คลิกขวาที่ปุ่ม **Start** แล้วเลือก **Disk Management**
+2. คลิกขวาที่ไดรฟ์ **C:** (OS) แล้วเลือก **Shrink Volume**
+3. ใส่จำนวนพื้นที่ที่ต้องการ (เช่น 65536 MB สำหรับ 64GB) แล้วกด **Shrink**
+4. คุณจะได้พื้นที่สีดำที่เขียนว่า **Unallocated** ให้ทิ้งไว้อย่างนั้น (ห้ามกด New Simple Volume)
+</details>
+
+<details>
+<summary><b>🔹 ขั้นตอนที่ 2: การเตรียม USB และติดตั้ง Bliss OS</b></summary>
+
+1. เสียบ Flash Drive เข้าคอมพิวเตอร์ แล้วเปิดโปรแกรม **Rufus**
+2. เลือกไฟล์ ISO ของ Bliss OS ที่โหลดมา แล้วกด **Start** (ใช้โหมด GPT/UEFI)
+3. เสียบ **USB Hub** เข้ากับเครื่อง Sharp ต่อ Flash Drive และเมาส์ให้พร้อม
+4. รีสตาร์ทเครื่อง กด **Volume Down + Power** เพื่อเข้า Boot Menu แล้วเลือก USB
+5. ในหน้าติดตั้ง เลือก **Installation** > เลือกพาร์ทิชัน **Unallocated** ที่เตรียมไว้
+6. ทำตามขั้นตอนบนหน้าจอจนเสร็จ (แนะนำให้เลือกลง GMS หากต้องการใช้ Play Store)
+</details>
+
+<details>
+<summary><b>🔹 ขั้นตอนที่ 3: การเซตอัพ Grub2Win (เมนูบูตทัชสกรีน)</b></summary>
+
+1. บูตกลับเข้า Windows 10 แล้วติดตั้งโปรแกรม **Grub2Win**
+2. กดปุ่ม **Manage Boot Menu** เพื่อเพิ่มรายการ Bliss OS
+3. เลือก **Add New Item** > เลือก Type เป็น **Android**
+4. ระบุพาร์ทิชันที่ลง Bliss OS ไว้ แล้วกด **Apply**
+5. ไปที่ **Main Settings** เพื่อเลือก Theme ที่รองรับการสัมผัส (Touch Friendly)
+</details>
+
+<details>
+<summary><b>🔹 ขั้นตอนที่ 4: การทำระบบ Batocera บน SD Card</b></summary>
+
+1. ใช้ **Rufus** เขียนไฟล์ Batocera ลงใน MicroSD Card (ข้อมูลในการ์ดจะถูกลบทั้งหมด)
+2. เสียบการ์ดเข้าเครื่อง Sharp แล้วบูตเครื่องใหม่
+3. กดปุ่มลัดเข้า Boot Menu แล้วเลือก **SD Card** เพื่อเริ่มระบบเกม
+4. ครั้งแรกระบบจะขยายพื้นที่การ์ดโดยอัตโนมัติ ให้รอจนกว่าจะเข้าหน้าเมนูเกม
+</details>
+
+<details>
+<summary><b>🔹 ขั้นตอนที่ 5: การเชื่อมต่ออุปกรณ์ Bluetooth (จอยและมือถือ)</b></summary>
+
+1. **จอยเกม:** กดปุ่ม Pair ที่จอย แล้วไปที่ Settings > Bluetooth ใน Windows/Android/Batocera เพื่อเชื่อมต่อ
+2. **มือถือ Android:** เปิดแอป **Bluetooth Keyboard & Mouse** แล้วทำการ Pair กับเครื่อง Sharp
+3. หากสัญญาณหน่วง ให้ลองปิด Wi-Fi 2.4GHz หรือขยับอุปกรณ์มาใกล้เครื่องมากขึ้น
+</details>
+
+---
+
 ## 💡 บันทึกการใช้งาน (Important Notes)
 * การสลับระบบ OS อาจต้องทำการ Re-pair Bluetooth ใหม่ เนื่องจากแต่ละระบบจัดการโปรไฟล์แยกกัน
 * พอร์ต USB 3.0 (สีน้ำเงิน) บน Hub ควรใช้สำหรับอุปกรณ์ที่ต้องการความเร็วหรือความเสถียรสูง
