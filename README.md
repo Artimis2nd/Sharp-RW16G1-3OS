@@ -2,8 +2,8 @@
 คู่มือการจัดตั้งระบบ 3 ระบบสำหรับ Sharp RW-16G1
 
 ![800-800-Web-Sharp-Tablet-RW-16G1](https://github.com/user-attachments/assets/1a0e5236-574d-4eee-958a-60cb8bca6336)
-![1200-1200-Sharp-Tablet-RW-16G1-03](https://github.com/user-attachments/assets/b99f58b1-a949-4241-9720-d8d3f8852f15)
-![1200-1200-Sharp-Tablet-RW-16G1-01](https://github.com/user-attachments/assets/f01c092c-4d32-406a-b469-2c920d6938f5)
+<img width="735" height="455" alt="image" src="https://github.com/user-attachments/assets/693fbb51-02c8-4d41-9040-dac5caf090a1" />
+<img width="741" height="389" alt="image" src="https://github.com/user-attachments/assets/a17ec85e-f2cb-450e-8005-b82453b8249f" />
 <img width="394" height="125" alt="image" src="https://github.com/user-attachments/assets/b378fc80-afa6-4b98-ae9a-19c0aa9fcf35" />
 
 
