@@ -1,7 +1,8 @@
 # Sharp RW-16G1 Ultimate Multi-OS Gaming Station
-
 โปรเจกต์ชุบชีวิตแท็บเล็ต **Sharp RW-16G1**  
 ให้กลายเป็นเครื่องเล่นเกมและใช้งานอเนกประสงค์แบบ **3 ระบบในเครื่องเดียว**
+
+<img width="398" height="283" alt="image" src="https://github.com/user-attachments/assets/0b29391f-0108-4857-bdfc-de5455dcef15" />
 
 | ระบบ | จุดประสงค์ | สถานะ |
 |---|---|---|
