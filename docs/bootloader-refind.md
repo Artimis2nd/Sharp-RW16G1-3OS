@@ -76,6 +76,14 @@
 
 ตัวอย่างโครงสร้าง:
 
+EFI/
+├─ Microsoft/
+├─ refind/
+│ ├─ refind.conf
+│ ├─ icons/
+│ └─ drivers_x64/
+├─ Boot/
+
 ---
 
 ## 🪟 การจัดการ Windows ใน rEFInd
@@ -167,6 +175,3 @@
 👉 [บทเรียนที่ได้จากโปรเจกต์](lessons-learned.md)
 
 ---
-
-> rEFInd ไม่ได้รวมโลก  
-> แต่ทำให้หลายโลกอยู่ร่วมกันได้
