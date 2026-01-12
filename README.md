@@ -1,7 +1,3 @@
-# Sharp-RW16G1-3OS-Setup
-คู่มือการจัดตั้งระบบ 3 OS สำหรับ Sharp RW-16G1
-
-
 # Sharp RW-16G1 Ultimate Multi-OS Gaming Station
 
 โปรเจกต์ชุบชีวิตแท็บเล็ต **Sharp RW-16G1**  
