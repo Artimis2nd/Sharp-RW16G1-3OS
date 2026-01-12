@@ -22,6 +22,8 @@
 
 ไม่แนะนำให้ใช้พาร์ทิชันร่วมกันระหว่าง OS
 
+<img width="944" height="602" alt="image" src="https://github.com/user-attachments/assets/26950e4a-f8ec-49b9-91f2-b1360e7c50c7" />
+
 ---
 
 ## 🧱 โครงสร้างพาร์ทิชันที่ใช้ (ภาพรวม)
