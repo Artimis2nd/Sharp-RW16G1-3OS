@@ -70,21 +70,6 @@
 
 ---
 
-## 🔁 ลำดับการบูตระบบ (Boot Flow)
-
-```text
-เปิดเครื่อง
-   ↓
-UEFI Firmware
-   ↓
-rEFInd Bootloader
-   ↓
- ┌─────────────┬─────────────┬─────────────┐
- │ Windows 10  │ Bliss OS    │ Batocera    │
- └─────────────┴─────────────┴─────────────┘
-
----
-
 ## 📚 คู่มือการติดตั้ง
 - [ภาพรวมการเตรียมเครื่อง](docs/overview.md)
 - [ข้อมูลฮาร์ดแวร์และข้อจำกัด](docs/hardware.md)
@@ -95,3 +80,5 @@ rEFInd Bootloader
 - [ตั้งค่า rEFInd](docs/bootloader-refind.md)
 - [แก้ปัญหาเบื้องต้น](docs/troubleshooting.md)
 - [บทเรียนที่ได้จากโปรเจกต์](docs/lessons-learned.md)
+
+---
