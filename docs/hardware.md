@@ -13,3 +13,8 @@
 | แบตเตอรี่ | ~9 ชั่วโมง (JEITA) |
 | น้ำหนัก | ~1.25 kg |
 | โหมดบูต | UEFI (รองรับ multi-boot) — จำเป็นสำหรับหลายระบบ |
+
+![800-800-Web-Sharp-Tablet-RW-16G1](https://github.com/user-attachments/assets/1a0e5236-574d-4eee-958a-60cb8bca6336)
+<img width="735" height="455" alt="image" src="https://github.com/user-attachments/assets/693fbb51-02c8-4d41-9040-dac5caf090a1" />
+<img width="741" height="389" alt="image" src="https://github.com/user-attachments/assets/a17ec85e-f2cb-450e-8005-b82453b8249f" />
+<img width="394" height="125" alt="image" src="https://github.com/user-attachments/assets/b378fc80-afa6-4b98-ae9a-19c0aa9fcf35" />
