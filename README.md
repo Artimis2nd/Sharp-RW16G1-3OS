@@ -82,3 +82,16 @@ rEFInd Bootloader
  ┌─────────────┬─────────────┬─────────────┐
  │ Windows 10  │ Bliss OS    │ Batocera    │
  └─────────────┴─────────────┴─────────────┘
+
+---
+
+## 📚 คู่มือการติดตั้ง
+- [ภาพรวมการเตรียมเครื่อง](docs/overview.md)
+- [ข้อมูลฮาร์ดแวร์และข้อจำกัด](docs/hardware.md)
+- [การจัดพาร์ทิชัน](docs/partitioning.md)
+- [ติดตั้ง Windows](docs/install-windows.md)
+- [ติดตั้ง Bliss OS](docs/install-bliss.md)
+- [ติดตั้ง Batocera](docs/install-batocera.md)
+- [ตั้งค่า rEFInd](docs/bootloader-refind.md)
+- [แก้ปัญหาเบื้องต้น](docs/troubleshooting.md)
+- [บทเรียนที่ได้จากโปรเจกต์](docs/lessons-learned.md)
