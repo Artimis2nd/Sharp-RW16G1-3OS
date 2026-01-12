@@ -76,13 +76,7 @@
 
 ตัวอย่างโครงสร้าง:
 
-EFI/
-├─ Microsoft/
-├─ refind/
-│ ├─ refind.conf
-│ ├─ icons/
-│ └─ drivers_x64/
-├─ Boot/
+<img width="129" height="154" alt="image" src="https://github.com/user-attachments/assets/392fa779-72ab-495d-8306-5639d340e626" />
 
 ---
 
