@@ -39,9 +39,9 @@ Batocera **ไม่ถูกติดตั้งแบบ Installer** ลง S
 
 ## 💾 เวอร์ชัน Batocera ที่ใช้
 
-- Batocera Linux (x86_64 – Stable)
-- Image ทางการ (.img.gz)
-- โหมด UEFI
+- batocera-x86_64-42-20251006.img.gz (รุ่น x86_64 – Stable ปัจจุบันเป็นรุ่น 42- 06 ต.ค. 2568)
+
+    https://sour-silent-prune.6fcff5d8.katapult.cloud/images/batocera-x86_64-42-20251006.img.gz 👈โหลดที่ลิ้งค์นี้
 
 ---
 
@@ -117,7 +117,7 @@ Batocera **ไม่ถูกติดตั้งแบบ Installer** ลง S
 2. สร้างพาร์ทิชันใหม่ในพื้นที่ถัดจาก `BATOCERA`
 3. ตั้งค่า:
    - File system: **exFAT**
-   - Label: `USERDATA` (หรือ `BATOCERA_DATA`)
+   - Label: `USERDATA`
 4. Apply การเปลี่ยนแปลง
 
 📌 เหตุผลที่เลือก exFAT:
@@ -157,14 +157,6 @@ Batocera **ไม่ถูกติดตั้งแบบ Installer** ลง S
 - ❌ ห้ามใช้ Batocera Installer ลง SSD โดยตรง
 - ❌ ห้ามเปลี่ยนชื่อพาร์ทิชัน `BATOCERA`
 - ❌ ห้ามให้ Windows สร้าง EFI ใหม่ทับของเดิม
-
----
-
-## 🧠 หมายเหตุจากการใช้งานจริง
-
-> วิธีนี้อาจดูเหมือน “อ้อม”  
-> แต่ให้ผลลัพธ์ที่เสถียรที่สุด  
-> สำหรับระบบที่ต้องอยู่ร่วมกับหลาย OS
 
 ---
 
