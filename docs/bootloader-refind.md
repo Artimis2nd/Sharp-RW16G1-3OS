@@ -17,11 +17,6 @@
 - ไม่ลบ bootloader ของระบบใด
 - ไม่บังคับลำดับใคร
 - ทุกระบบยังคงโครงสร้างของตัวเอง
-
-> rEFInd = คนเฝ้าประตู  
-> OS = ผู้เดินทาง  
-> ไม่มีใครถูกยึดบ้าน
-
 ---
 
 ## 🧠 โครงสร้างก่อนติดตั้ง rEFInd
@@ -53,7 +48,6 @@
 
 - rEFInd (เวอร์ชันเสถียร)
 - Windows (สำหรับติดตั้ง rEFInd)
-- EFI System Partition (ESP)
 
 ---
 
@@ -61,33 +55,41 @@
 
 ### 1️⃣ ติดตั้ง rEFInd บน Windows
 
-1. บูตเข้า Windows
-2. แตกไฟล์ rEFInd
-3. เปิด Command Prompt (Run as Administrator)
-4. รันคำสั่งติดตั้ง rEFInd ตามคู่มือทางการ
-
-ผลลัพธ์:
-- rEFInd ถูกติดตั้งลง EFI System Partition
-- ตั้งค่าให้โหลดก่อน Windows Boot Manager
 
 ---
 
-## 📂 โครงสร้าง EFI หลังติดตั้ง
-
-ตัวอย่างโครงสร้าง:
-
-<img width="129" height="154" alt="image" src="https://github.com/user-attachments/assets/392fa779-72ab-495d-8306-5639d340e626" />
+## 📂 โครงสร้าง EFI หลังติดตั้ง บนวินโดว์
 
 ---
 
-## 🪟 การจัดการ Windows ใน rEFInd
+## 🪟 โค้ดที่ใส่เพิ่ม ใน rEFInd
 
-- rEFInd ตรวจพบ Windows อัตโนมัติ
-- Windows จะอยู่ลำดับแรก
-- **ไม่จำเป็นต้องตั้งค่าเพิ่ม**
-
-> Windows เป็นเจ้าบ้านเดิม  
-> rEFInd เคารพสิ่งนั้น
+    # --- ตั้งค่าการสแกน EFI 
+    scanfor external,optical,manual
+    
+    # --- ตั้งค่าปุ่มเครื่องมือ (BIOS) ---
+    showtools reboot, shutdown, firmware
+    
+    # --- โค้ดสั่งให้โชว์เมนู Windows 10 ---
+    menuentry "Windows 10" {
+        icon \EFI\refind\icons\os_win10.png
+        loader \EFI\Microsoft\Boot\bootmgfw.efi
+    }
+    
+    # --- โค้ดสั่งให้โชว์เมนู Bliss OS ---
+    menuentry "Bliss OS 14" {
+        icon \EFI\refind\icons\os_gg.png
+        loader \EFI\Bliss14\kernel
+        initrd \EFI\Bliss14\initrd.img
+        options "root=/dev/ram0 androidboot.selinux=permissive buildvariant=userdebug SRC=/android-2024-10-12"
+    }
+    
+    # --- โค้ดสั่งให้โชว์เมนู Batocera ---
+    menuentry "Batocera" {
+        icon \EFI\refind\icons\os_game.png
+        volume "Batocera"
+        loader \EFI\batocera\grubx64.efi
+    }
 
 ---
 
@@ -122,11 +124,6 @@
 - Batocera มี boot file ครบถ้วน
 - rEFInd ตรวจพบโดยอัตโนมัติ
 - ไม่ต้องเขียน config เพิ่ม
-
-ถ้า:
-- พาร์ทิชัน label ถูกต้อง
-- เป็น UEFI
-- โครงสร้างไม่ถูกแก้
 
 ---
 
