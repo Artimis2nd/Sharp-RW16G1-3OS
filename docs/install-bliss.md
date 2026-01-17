@@ -32,9 +32,11 @@
 
 ## 💾 เวอร์ชันที่แนะนำ
 
-- **Bliss OS v14.x (x86_64)**
-- Variant: `GMS` (ถ้าต้องการ Play Store)
-- Kernel มาตรฐาน (ไม่ต้อง custom)
+- **Bliss OS v14.10.3 (x86_64)**
+    
+    https://sourceforge.net/projects/blissos-x86/files/Official/BlissOS14/OpenGApps/Generic/Bliss-v14.10.3-x86_64-OFFICIAL-opengapps-20241012.iso/download 👈 แบบมี Google Services
+    
+    https://sourceforge.net/projects/blissos-x86/files/Official/BlissOS14/FOSS/Generic/Bliss-v14.10.3-x86_64-OFFICIAL-foss-20241012.iso/download 👈 ไม่มี Google เลย
 
 ---
 
@@ -56,14 +58,6 @@
 - File system: `FAT32`
 
 > ⚠️ ห้ามใช้โหมด Legacy / MBR
-
----
-
-## ⚙️ การตั้งค่า BIOS / UEFI (ย้ำอีกครั้ง)
-
-- Secure Boot: ❌ ปิด
-- Boot Mode: ✅ UEFI
-- Legacy / CSM: ❌ ปิด
 
 ---
 
